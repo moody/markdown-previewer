@@ -54,7 +54,7 @@ class App extends Component {
         </div>
 
         <footer id="footer">
-          <p>created by <a href="https://github.com/moody">justin moody</a></p>
+          <p>created by <a href="https://github.com/moody" target="_blank" rel="noopener noreferrer">justin moody</a></p>
         </footer>
       </div>
     );

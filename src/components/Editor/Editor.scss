@@ -1,8 +1,8 @@
 @import '../../styles/pane';
 
 #editor-pane {
-  width: 30%;
-  min-width: 300px;
+  min-width: 400px;
+  width: 15%;
 }
 
 #editor {
@@ -15,9 +15,9 @@
   resize: none;
   width: 100%;
   height: 100%;
-}
 
-#editor::placeholder {
-  color: inherit;
-  opacity: 0.5;
+  &::placeholder {
+    color: inherit;
+    opacity: 0.5;
+  }
 }

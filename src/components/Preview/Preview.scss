@@ -1,12 +1,13 @@
 @import '../../styles/pane';
 
 #preview-pane {
-  width: 40%;
-  min-width: 400px;
+  min-width: 600px;
 }
 
 #preview {
   box-sizing: border-box;
   overflow: auto;
   padding: 10px;
+  width: 100%;
+  height: 100%;
 }
