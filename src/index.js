@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './styles/shared.scss';
+import './index.scss';
+import App from './components/App/App';
 import * as serviceWorker from './serviceWorker';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faExpand, faEdit, faEye } from '@fortawesome/free-solid-svg-icons';
+import 'normalize.css';
+
+library.add(faExpand, faEdit, faEye);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

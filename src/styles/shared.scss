@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:300,400');
+
+$white: ivory;
+$primary-font: "Source Sans Pro", sans-serif;
+$code-font: "Source Code Pro", monospace;
+
+h1, h2, h3 { margin: 10px 0; }
+h1 { font-size: 2em; margin-top: 0; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.2em; }
+
+a {
+  color: inherit;
+  font-weight: 700;
+}
+
+code {
+  display: inline-block;
+  background: rgba(255, 255, 240, 0.8);
+  color: black;
+  font-family: $code-font;
+  font-size: 0.8em;
+  padding: 3px;
+}
+
+table { border-collapse: collapse; }
+table, th, td {
+  border: 2px solid black;
+  padding: 10px;
+}
+th { background: rgba(0, 0, 0, 0.3); }

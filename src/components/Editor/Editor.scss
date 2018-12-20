@@ -1,0 +1,23 @@
+@import '../../styles/pane';
+
+#editor-pane {
+  width: 30%;
+  min-width: 300px;
+}
+
+#editor {
+  background: none;
+  box-sizing: border-box;
+  border: none;
+  color: $white;
+  padding: 5px;
+  outline: none;
+  resize: none;
+  width: 100%;
+  height: 100%;
+}
+
+#editor::placeholder {
+  color: inherit;
+  opacity: 0.5;
+}
